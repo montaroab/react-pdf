@@ -41,6 +41,7 @@ const getFragments = (fontStore, instance, parentLink, level = 0) => {
     letterSpacing,
     textIndent,
     opacity,
+    yOffset,
   } = instance.style;
 
   const opts = { fontFamily, fontWeight, fontStyle };
@@ -56,6 +57,7 @@ const getFragments = (fontStore, instance, parentLink, level = 0) => {
     opacity,
     fontSize,
     backgroundColor,
+    yOffset,
     align: textAlign,
     indent: textIndent,
     characterSpacing: letterSpacing,
